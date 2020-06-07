@@ -1,6 +1,6 @@
 # K-Means Algorithm
 
-DeviceStatusETL.py* is a Python script that performs data scrubbing on the file *devicestatus.txt* to get it into a standardized format for later processing. The file *devicestatus.txt* contains data collected from mobile devices on Loudacre’s network, including device ID, current status, location and so on. The python script does the following things.
+DeviceStatusETL.py is a Python script that performs data scrubbing on the file *devicestatus.txt* to get it into a standardized format for later processing. The file *devicestatus.txt* contains data collected from mobile devices on Loudacre’s network, including device ID, current status, location and so on. The python script does the following things.
 1. Load the dataset
 2. Use the character at position 19 as the delimiter (since the 1st use of the delimiter is at position
 19), parse the line, and filter out bad lines. Each line should have exactly 14 fields, so any line
